@@ -3,8 +3,14 @@
 
 ![merge_sort_animation](merge_sort_animation.gif)
 
+![merge_sort_1](https://github.com/NoriKaneshige/Merge_Sort_Algorithm/blob/master/merge_sort_1.png)
+![merge_sort_2](https://github.com/NoriKaneshige/Merge_Sort_Algorithm/blob/master/merge_sort_2.png)
+![merge_sort_3](https://github.com/NoriKaneshige/Merge_Sort_Algorithm/blob/master/merge_sort_3.png)
+![merge_sort_0](https://github.com/NoriKaneshige/Merge_Sort_Algorithm/blob/master/merge_sort_0.png)
 
-// Merges two already sorted arrays
+> ## Merges two already sorted arrays: :wink:
+
+``` js
 function merge(arr1, arr2){
     let results = [];
     let i = 0;
@@ -34,9 +40,11 @@ console.log(merge([100,200], [1,2,3,5,6]))
 //   1,   2,   3, 5,
 //   6, 100, 200
 // ]
-                   
+```            
 
-// Recrusive Merge Sort
+> ## Recrusive Merge Sort: :laughing:
+
+``` js
 function mergeSort(arr){
     if(arr.length <= 1) return arr;
     let mid = Math.floor(arr.length/2);
@@ -46,3 +54,4 @@ function mergeSort(arr){
 }
 
 mergeSort([10,24,76,73]) // [10,24,73,76]
+```
